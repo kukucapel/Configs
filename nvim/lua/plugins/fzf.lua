@@ -24,9 +24,14 @@ return {
       { "<leader>gs", function() require("fzf-lua").git_status() end, desc = "Git status" },
       { "<leader>gc", function() require("fzf-lua").git_commits() end, desc = "Git commits" },
       { "<leader>gb", function() require("fzf-lua").git_branches() end, desc = "Git branches" },
+      
+      { "<leader>rn", function() vim.lsp.buf.rename() end, desc = "Rename symbol" },
+      { "<leader>h", function() vim.lsp.buf.hover() end, desc = "Documentation under cursor" },
     },
     opts = {
       "telescope",
+      fzf_colors = true,
+      
       ui_select = {},
       winopts = {
           border = "rounded",
