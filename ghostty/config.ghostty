@@ -24,6 +24,6 @@ font-feature = calt
 
 # animation
 custom-shader-animation = true
-custom-shader = ~/.config/ghostty/shaders/ghostty-cursor-shaders/ripple_cursor.glsl
+custom-shader = ~/.config/ghostty/shaders/cursor-shaders/ripple_cursor.glsl
 # custom-shader = ~/.config/ghostty/shaders/ghostty-cursor-shaders/cursor_warp.glsl
 
